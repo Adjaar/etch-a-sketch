@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: red;
+}
+
+html, body {
+    height: 90%;
+    background-color: #000;;
+}
+
+.container {
+    border: solid red 50px;
+    border-style: outset;
+    border-radius: 25px;
+    padding: 11px;
+    height: 97%;
+}
+
+.gridContainer {
+    height:70%;
+    width: 700px;
+    background-color: #fff;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bottomElements {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: 25px; */
+    padding: 2px;
+}
+
+button {
+    background-color: #fff;
+    background-image: url('images/circle.png');
+    border: solid white 1px;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.grid {
+    border: black solid 1px;
+}
