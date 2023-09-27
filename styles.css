@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: red;
+    
 }
 
 html, body {
@@ -10,6 +10,7 @@ html, body {
 }
 
 .container {
+    background-color: red;
     border: solid red 50px;
     border-style: outset;
     border-radius: 25px;
@@ -45,12 +46,11 @@ button {
     background-image: url('images/circle.png');
     border: solid white 1px;
     border-radius: 50%;
-    width: 75px;
-    height: 75px;
+    width: 125px;
+    height: 125px;
 }
 
 .grid {
-    border: grey solid 1px;
     flex-grow: 1;
     box-sizing: border-box;
 }

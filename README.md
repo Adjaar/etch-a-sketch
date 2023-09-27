@@ -10,4 +10,5 @@ Pseudo code<br>
 Create grid on sketchpad with default size of 16x16 (use JS)<br>
 Change pixel colours to black when hovering over to create black trail<br>
 Clear sketchpad if player clicks reset button<br>
-If player moves pixel size slider, update grid size and clear sketchpad<br>
+Size button gives prompt for player to choose grid size
+After player prompt, update grid size and clear sketchpad<br>
