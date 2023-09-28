@@ -6,21 +6,26 @@
 
 html, body {
     height: 90%;
-    background-color: #000;;
+    background-color: #000;
 }
 
 .container {
     background-color: red;
-    border: solid red 50px;
+    border: solid rgb(243, 19, 19) 50px;
     border-style: outset;
     border-radius: 25px;
     padding: 11px;
-    height: 97%;
+    height: 100%;
+    width: 75%;
+    margin-top: 30px; 
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
 }
 
 #gridContainer {
-    height:400px;
-    width: 700px;
+    height:550px;
+    width: 900px;
     background-color: #fff;
     margin: auto;
     display: flex;
@@ -30,24 +35,41 @@ html, body {
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    font-family: 'Finger Paint', cursive;
+    color: gold;
+}
+
+.h1Alt {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 24px;
 }
 
 .bottomElements {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-between;
     margin-top: 100px; 
     padding: 2px;
-    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
 }
 
 button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgb(92, 88, 88);
     background-color: #fff;
     background-image: url('images/circle.png');
     border: solid white 1px;
     border-radius: 50%;
-    width: 125px;
-    height: 125px;
+    width: 175px;
+    height: 175px;
 }
 
 .grid {
